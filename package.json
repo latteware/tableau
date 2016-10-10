@@ -1,12 +1,22 @@
 {
   "name": "react-fatigue-dev-boiler",
-  "version": "0.0.1",
+  "version": "0.9.0",
   "browserify": {
     "transform": [
       "babelify"
     ]
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/latteware/tableau"
+  },
+  "license": "MIT",
   "dependencies": {
+    "lodash": "^4.16.4",
     "react-fatigue-dev": "github:tj/react-fatigue-dev"
+  },
+  "devDependencies": {
+    "react-grid": "^1.1.7",
+    "react-markdown": "^2.4.2"
   }
 }
